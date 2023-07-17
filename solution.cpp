@@ -59,7 +59,7 @@ int main() {
     string longestCompoundWord = findLongestCompoundWord(words);
     
     if (longestCompoundWord.empty()) {
-        cout << "not compound word is found" << endl;
+        cout << "no compound word is found" << endl;
     } else {
         cout << "Your longest compound word  " << longestCompoundWord << endl;
     }
